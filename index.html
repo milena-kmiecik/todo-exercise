@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-do list</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+<div class="todo-1"></div>
+<script src="Button.js"></script>
+<script src="Input.js"></script>
+<script src="Form.js"></script>
+<script src="Task.js"></script>
+<script src="To-do.js"></script>
+<script>
+    const todo1 = new ToDo('todo-1')
+    document.querySelector('.todo-1').appendChild(todo1.render())
+</script>
+</body>
+</html>
